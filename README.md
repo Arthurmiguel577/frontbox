@@ -1,2 +1,4 @@
 # frontbox
-Um site responsivo para uma empresa fictícia chamada Frontbox. Criado pelo https://github.com/inkasadev.
+Um site responsivo para uma empresa fictícia chamada Frontbox.
+Github Page:https://arthurmiguel577.github.io/frontbox/
+Design Criado por: https://github.com/inkasadev

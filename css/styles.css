@@ -70,6 +70,11 @@ img {
   display: block;
   max-width: 100%;
 }
+h3{
+  font-size:1.5rem;
+  margin: 10px;
+  font-weight: bold;
+}
 /**********************************/
 /* 2. Menu
 /**********************************/
@@ -79,11 +84,9 @@ img {
 
 .menu {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   max-width: 960px;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 .menu_logo {
   margin: 10px;
@@ -94,7 +97,9 @@ img {
 }
 
 .nav_link {
-  padding: 20px 10px;
+ padding: 20px 10px;
+ margin: auto 0;
+  
 }
 
 /**********************************/
@@ -130,11 +135,39 @@ img {
 /**********************************/
 /* 5. Nossos cursos
 /**********************************/
-
+.curso{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  }
+  .curso-c{
+    align-items: center;
+    display: inline-block
+  }
+  .curso__img{
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  .curso__titulo{
+    text-align: center;
+  }
+  .curso__descricao{
+    width: 320px;
+  
+  }
 /**********************************/
 /* 6. Planos
 /**********************************/
-
+.planos-c{
+  background-color: var(--clr-pink-light);
+  display: flex;
+}
+.plano{
+  border: solid 1px red;
+}
 /**********************************/
 /* 7. Vantagens
 /**********************************/
